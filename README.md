@@ -28,42 +28,59 @@ Los Especialistas podrán registrar los exámenes de laboratorio.
 ## Instalación
 
 1. Clonar el repositorio
-2. Instalar las dependencias del cliente y del servidor
-3. Crear un archivo .env en la carpeta frontend con las siguientes variables de entorno:
+2. Instalar las dependencias del cliente
 
 ```
+cd frontend
+npm install
+```
+
+3. Instalar las dependencias del servidor
+
+```
+cd backend
+npm install
+```
+
+4. Crear un archivo .env en la carpeta frontend con las siguientes variables de entorno:
+
+```
+# Copia y pega el contenido de este archivo en el archivo .env
 VITE_API_URL = "http://localhost:3000/api"
 ```
 
-4. Crear un archivo .env en la carpeta backend con las siguientes variables de entorno:
+5. Crear un archivo .env en la carpeta backend con las siguientes variables de entorno:
 
 ```
+# Copia y pega el contenido de este archivo en el archivo .env
 MONGODB_NAME = "ips-geo"
 MONGODB_URI = "mongodb://localhost:27017/ips-geo"
 
 SECRET_KEY = "vtpY863IlN0x"
 ```
 
-5. Ejecutar el servidor
+6. Ejecutar el servidor
 
 ```
+cd backend
 npm run dev
 ```
 
-6. Ingresar a la dirección http://localhost:3000/api/createDefaultAdmin para crear un usuario administrador por defecto con las siguientes credenciales:
+7. Ingresar a la dirección http://localhost:3000/api/createDefaultAdmin para crear un usuario administrador por defecto con las siguientes credenciales:
 
 ```
 email: admin@admin.com
 password: jp5yZciY3pn756O2
 ```
 
-7. Iniciar el cliente
+8. Iniciar el cliente
 
 ```
+cd frontend
 npm run dev
 ```
 
-8. Ingresar a la dirección http://localhost:5173 y utilizar las credenciales del usuario administrador para ingresar al sistema.
+9. Ingresar a la dirección http://localhost:5173 y utilizar las credenciales del usuario administrador para ingresar al sistema.
 
 ## Cosas a tener en cuenta
 
