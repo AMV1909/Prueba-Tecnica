@@ -1,0 +1,121 @@
+.ips__page {
+    height: 85vh !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 2rem;
+
+    overflow: auto;
+}
+
+.ips__page-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ips__page-search input {
+    padding: 0.5rem 1rem;
+    border: 2px solid #5bc0de;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.ips__page-search button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5bc0de;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.ips__page-search button:hover {
+    background-color: #4da9c9;
+}
+
+.ips__page table {
+    width: 80%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ips__page table thead {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.ips__page table thead th {
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+.ips__page table tbody tr {
+    background-color: white;
+}
+
+.ips__page table tbody td {
+    padding: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.add {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    align-items: center;
+}
+
+.add button {
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.add button:hover {
+    background-color: #218838;
+}
+
+.actions div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actions div button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.actions div button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.actions div button:hover {
+    background-color: #0056b3;
+}
+
+.actions div button:nth-child(2):hover {
+    background-color: #921420;
+}
+
+.bigTable {
+    width: 100% !important;
+}

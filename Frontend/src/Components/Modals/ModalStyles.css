@@ -1,0 +1,136 @@
+.ips__modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ips__modal-container {
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ips__modal-container header {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    align-items: center;
+
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.ips__modal-container header button {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.ips__modal-container header button svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.ips__modal-container header button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ips__modal-container form {
+    max-width: 400px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.ips__modal-container form input,
+.ips__modal-container form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ips__modal-container form textarea {
+    width: 100% !important;
+    height: 75px !important;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.ips__modal-container form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ips__modal-container form div button {
+    width: 40%;
+    padding: 0.5rem;
+
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ips__modal-container form label {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 1rem !important;
+    height: 1rem;
+    margin: 0 !important;
+}
+
+.bigModal {
+    width: 700px !important;
+}
+
+.bigModal form {
+    max-width: 650px;
+}
+
+.results {
+    width: 100%;
+    padding: 1rem;
+    border-top: 2px solid #ccc;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
